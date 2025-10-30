@@ -1,10 +1,10 @@
 
 public class Vozilo {
 
-	protected String proizvodjac;
-	protected int godinaProizvodnje;
-	protected int kubikaza;
-	protected String boja;
+	private String proizvodjac;
+	private int godinaProizvodnje;
+	private int kubikaza;
+	private String boja;
 
 	public Vozilo(String proizvodjac, int godinaProizvodnje, int kubikaza, String boja) {
 		this.proizvodjac = proizvodjac;
@@ -191,3 +191,4 @@ class Kombi extends Vozilo {
 		return cijena;
 	}
 }
+
